@@ -172,7 +172,7 @@ function HeaderPage() {
             width={200}
             height={200}
             className="w-10 h-10 rounded-full object-cover"
-            src="/jo10.jpeg"
+            src="./jo10.jpeg"
             alt=""
           />
 

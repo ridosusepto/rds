@@ -47,7 +47,7 @@ function Homepage() {
           <motion.img
             whileHover={{ scale: 3 }}
             className="h-full w-full duration-300 transition-all ease-in-out object-cover"
-            src={theme == "dark" ? "/lightm.bmp" : "/map.webp"}
+            src={theme == "dark" ? "./lightm.bmp" : "./map.webp"}
             alt=""
           />
         </motion.div>
@@ -189,7 +189,7 @@ function Homepage() {
                   width={200}
                   height={200}
                   className="w-14 h-14 rounded-full object-cover flex-shrink-0"
-                  src="/jo4.jpeg"
+                  src="./jo4.jpeg"
                   alt=""
                 />
 
@@ -211,7 +211,7 @@ function Homepage() {
                   width={300}
                   height={300}
                   className="w-14 h-14 rounded-full object-cover"
-                  src="/jo4.jpeg"
+                  src="./jo4.jpeg"
                   alt=""
                 />
 
@@ -233,7 +233,7 @@ function Homepage() {
                   width={300}
                   height={300}
                   className="w-14 h-14 rounded-full object-cover"
-                  src="/jo4.jpeg"
+                  src="./jo4.jpeg"
                   alt=""
                 />
 
@@ -255,7 +255,7 @@ function Homepage() {
                   width={300}
                   height={300}
                   className="w-14 h-14 rounded-full object-cover"
-                  src="/jo4.jpeg"
+                  src="./jo4.jpeg"
                   alt=""
                 />
 
@@ -277,7 +277,7 @@ function Homepage() {
                   width={300}
                   height={300}
                   className="w-14 h-14 rounded-full object-cover"
-                  src="/jo4.jpeg"
+                  src="./jo4.jpeg"
                   alt=""
                 />
 
@@ -352,7 +352,7 @@ function Homepage() {
             width={900}
             height={300}
             className="h-full duration-300 hover:scale-110 transition-all ease-in-out object-cover"
-            src={"/jo9.jpeg"}
+            src={"./jo9.jpeg"}
             alt=""
           />
         </div>
@@ -513,7 +513,7 @@ function Homepage() {
                 height={400}
                 width={400}
                 className="w-8 h-8 rounded-full object-cover"
-                src="/jo2.jpeg"
+                src="./jo2.jpeg"
                 alt=""
               />
 
