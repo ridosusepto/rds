@@ -9,6 +9,8 @@ import { useState } from "react";
 import { useTheme } from "next-themes";
 import { PiArrowRightThin } from "react-icons/pi";
 import Image from "next/image";
+import Link from "next/link";
+
 
 function HeaderPage() {
   const [open, cycleOpen] = useCycle(false, true);
@@ -170,21 +172,23 @@ function HeaderPage() {
             width={200}
             height={200}
             className="w-10 h-10 rounded-full object-cover"
-            src="/jo3.jpeg"
+            src="/jo10.jpeg"
             alt=""
           />
 
           <div>
-            <h4 className="text-xs ">Joscript Joeeeeeeee</h4>
-            <p className="text-[#828282] text-xs">Software Developer</p>
+            <h4 className="text-xs ">Rido Susepto</h4>
+            <p className="text-[#828282] text-xs">Junior Front Developer | UI/UX Designer</p>
           </div>
         </div>
 
         <div>
+          <Link href={"https://www.linkedin.com/in/rido-susepto-b1615b299/"}>
           <button className="flex w-40 items-center justify-between border border-neutral-600 rounded-full p-1 px-5">
-            <span className="text-xs">Buy my Template</span>
+            <span className="text-xs">My LinkedIn</span>
             <PiArrowRightThin />
           </button>
+          </Link>
         </div>
       </nav>
 

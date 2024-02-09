@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import {
   PiArrowUpRight,
   PiLinkedinLogoThin,
-  PiBehanceLogoThin,
+  PiFigmaLogoThin,
   PiArrowDownThin,
   PiGithubLogoThin,
 } from "react-icons/pi";
 
 import { IoIosMailUnread } from "react-icons/io";
 
-import { RiTwitterXLine } from "react-icons/ri";
+import { RiInstagramLine } from "react-icons/ri";
 
 import { useTheme } from "next-themes";
 
@@ -40,7 +40,7 @@ function Homepage() {
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs">Location</p>
-              <p className="text-neutral-500 text-xs ">New York</p>
+              <p className="text-neutral-500 text-xs ">Indonesia</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
@@ -91,18 +91,14 @@ function Homepage() {
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
               <p className="text-xs">About</p>
-              <p className="text-neutral-500 text-xs ">Joscript Stone</p>
+              <p className="text-neutral-500 text-xs ">Rido Susepto</p>
             </div>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
 
           <div className="mt-14 px-3 pb-3">
             <p className="text-xs font-semibold   leading-5">
-              Am Joscript Stone, an adventurous Creative Director based in the
-              vibrant city of San Francisco. With a keen eye for aesthetics, a
-              passion for innovation, and a drive for designs that leaves a
-              lasting impact. let's collaborate and bring your creative visions
-              to life
+            I am a Junior Frontend Developer and UI/UX Designer who believes in the importance of creativity and teamwork. I focus on creating engaging and intuitive interfaces, while working closely with the team to achieve the best results for users.
             </p>
           </div>
         </motion.div>
@@ -120,13 +116,12 @@ function Homepage() {
             {/* Starts */}
             <div className="flex gap-x-3 mt-16 px-2  ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2002 -- 2012
+                2017-- 2020
               </p>
               <div>
-                <h4 className="text-xs font-bold">Creative Studio Owner</h4>
+                <h4 className="text-xs font-bold">SMP N 1 Punggelan</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Self-employed at my own creative studio, delivering innovative
-                  design solutions and giving value to your brand experience.
+                Junior high school (abbreviated as SMP) is the basic level of formal education in Indonesia which is taken after graduating from elementary school (or equivalent).
                 </p>
               </div>
             </div>
@@ -137,12 +132,12 @@ function Homepage() {
 
             <div className="flex  gap-x-3 px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2020 -- 2022
+                2020 -- 2024
               </p>
               <div>
-                <h4 className="text-xs font-bold">Nike Headquarters</h4>
+                <h4 className="text-xs font-bold">SMK N 1 Punggelan</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Designer & Creative Director
+                Sistem Informatika, Jaringan, dan Aplikasi (SIJA).
                 </p>
               </div>
             </div>
@@ -153,12 +148,12 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2018 -- 2020
+                2023 -- 2024
               </p>
               <div>
-                <h4 className="text-xs font-bold">Spotify</h4>
+                <h4 className="text-xs font-bold">Manimonki Studio</h4>
                 <p className="text-[11px] text-neutral-500">
-                  Designer & Art Director.
+                IT internship.
                 </p>
               </div>
             </div>
@@ -169,85 +164,11 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2016 -- 2018
+                2023 -- 2024
               </p>
               <div>
-                <h4 className="text-xs font-bold">Apple</h4>
-                <p className="text-[11px] text-neutral-500">Product Designer</p>
-              </div>
-            </div>
-
-            <div className="px-2 my-3 ">
-              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
-            </div>
-
-            <div className="flex  gap-x-3  px-2 relative ">
-              <p className="dark:text-neutral-400  text-xs w-20 shrink-0  ">
-                2014 -- 2016
-              </p>
-              <div>
-                <h4 className="text-xs font-bold">Royal Academy of Arts</h4>
-                <p className="text-[11px] text-neutral-500">
-                  Graduate Master’s Degree
-                </p>
-              </div>
-            </div>
-
-            <div className="px-2 my-3 ">
-              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
-            </div>
-
-            <div className="flex  gap-x-3  px-2 relative ">
-              <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                2012 -- 2016
-              </p>
-              <div>
-                <h4 className="text-xs font-bold">Zurich University of Arts</h4>
-                <p className="text-[11px] text-neutral-500">
-                  Visual Communication
-                </p>
-              </div>
-            </div>
-
-            <div className="px-2 my-3 ">
-              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
-            </div>
-
-            <div className="flex  gap-x-3  px-2 relative ">
-              <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                2011 -- 2012
-              </p>
-              <div>
-                <h4 className="text-xs font-bold">Vogue France</h4>
-                <p className="text-[11px] text-neutral-500">Graphic Designer</p>
-              </div>
-            </div>
-
-            <div className="px-2 my-3 ">
-              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
-            </div>
-
-            <div className="flex  gap-x-3  px-2 relative ">
-              <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                2010 -- 2011
-              </p>
-              <div>
-                <h4 className="text-xs font-bold">Vignelli Associates</h4>
-                <p className="text-[11px] text-neutral-500">Internship</p>
-              </div>
-            </div>
-
-            <div className="px-2 my-3 ">
-              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
-            </div>
-
-            <div className="flex  gap-x-3  mb-6 px-2 relative ">
-              <p className="dar:text-white  text-xs w-20 shrink-0  ">
-                2010 -- 2011
-              </p>
-              <div>
-                <h4 className="text-xs font-bold">Norm Zurich</h4>
-                <p className="text-[11px] text-neutral-500">Internship</p>
+                <h4 className="text-xs font-bold">Uplabs</h4>
+                <p className="text-[11px] text-neutral-500">UI design project</p>
               </div>
             </div>
           </div>
@@ -267,15 +188,37 @@ function Homepage() {
                 <Image
                   width={200}
                   height={200}
+                  className="w-14 h-14 rounded-full object-cover flex-shrink-0"
+                  src="/jo4.jpeg"
+                  alt=""
+                />
+
+                <div>
+                  <p className="text-xs ">ServoBridge MiniControl</p>
+                  <p className="text-xs">
+                  Automatic Control of Bridges with Miniature Servo Technology (IoT)
+                  </p>
+                </div>
+
+                <ul className="menu">
+                  <a href="#0"></a>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-[#F5F5F5]  dark:bg-[#1B1B1B] rounded-md px-1  relative">
+              <div className="flex justify-between  p-2  gap-x-2 mt-4">
+                <Image
+                  width={300}
+                  height={300}
                   className="w-14 h-14 rounded-full object-cover"
                   src="/jo4.jpeg"
                   alt=""
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">UnityAR</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  Expertly Crafting Immersive Unity Augmented Reality Experiences.
                   </p>
                 </div>
 
@@ -295,9 +238,9 @@ function Homepage() {
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">Employee Dashboard</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  Creating an Employee Dashboard with CodeIgniter and MySQL.
                   </p>
                 </div>
 
@@ -317,9 +260,31 @@ function Homepage() {
                 />
 
                 <div>
-                  <p className="text-xs">Fusion Pro Presentation</p>
+                  <p className="text-xs">Course Management Dashboard</p>
                   <p className="text-xs">
-                    I've come up with something truly unique
+                  Course Management Dashboard with CodeIgniter and MySQL.
+                  </p>
+                </div>
+
+                <ul className="menu">
+                  <a href="#0"></a>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-[#F5F5F5]  dark:bg-[#1B1B1B] rounded-md px-1  relative">
+              <div className="flex justify-between items-center p-2  gap-x-2 mt-4">
+                <Image
+                  width={300}
+                  height={300}
+                  className="w-14 h-14 rounded-full object-cover"
+                  src="/jo4.jpeg"
+                  alt=""
+                />
+
+                <div>
+                  <p className="text-xs">LMS Project with WordPress</p>
+                  <p className="text-xs">
+                  WordPress Animation Course Website for Dynamic Learning Experience.
                   </p>
                 </div>
 
@@ -339,33 +304,33 @@ function Homepage() {
 
           <div className="mt-14 mb-4">
             <div className="flex justify-center gap-x-2 px-2">
-              <Tooltip showArrow={true} content="X (Twitter)" color="#161616">
+              <Tooltip showArrow={true} content="Instagram" color="#161616">
                 <Link
-                  href={"https://twitter.com/Joenaldo"}
+                  href={"https://www.instagram.com/suseptoridos/"}
                   className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
-                  <RiTwitterXLine className="text-xl" />
+                  <RiInstagramLine className="text-xl" />
                 </Link>
               </Tooltip>
               <Tooltip showArrow={true} content="GitHub" color="#161616">
                 <Link
-                  href={"https://github.com/Joscriptt"}
+                  href={"https://github.com/ridosusepto"}
                   className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <PiGithubLogoThin className="text-xl" />
                 </Link>
               </Tooltip>
-              <Tooltip showArrow={true} content="Behance" color="#161616">
+              <Tooltip showArrow={true} content="Figma" color="#161616">
                 <Link
-                  href={"https://twitter.com/Joenaldo"}
+                  href={"https://www.figma.com/@ridosusepto"}
                   className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
-                  <PiBehanceLogoThin className="text-xl" />
+                  <PiFigmaLogoThin className="text-xl" />
                 </Link>
               </Tooltip>
               <Tooltip showArrow={true} content="E-mail" color="#161616">
                 <Link
-                  href={"https://twitter.com/Joenaldo"}
+                  href={"https://www.instagram.com/suseptoridos/"}
                   className="rounded-full border dark:border-neutral-600 cursor-pointer border-neutral-400/60 p-2 w-16 h-16 flex items-center justify-center"
                 >
                   <IoIosMailUnread className="text-xl" />
@@ -377,8 +342,8 @@ function Homepage() {
         <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 overflow-hidden relative shadow-xl rounded-lg min-h-[50px] col-span-2 row-span-3 md:row-span-2 ">
           <div className=" absolute w-full p-2 z-10">
             <div className="flex justify-between items-center ">
-              <p className="text-xs">Latest Work</p>
-              <p className="text-neutral-500 text-xs ">Waitlist</p>
+              <p className="text-xs">Profile Picture</p>
+              <p className="text-neutral-500 text-xs ">RDS</p>
             </div>
             <div className="w-full h-[0.4px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
@@ -387,13 +352,13 @@ function Homepage() {
             width={900}
             height={300}
             className="h-full duration-300 hover:scale-110 transition-all ease-in-out object-cover"
-            src={"/jo8.jpeg"}
+            src={"/jo9.jpeg"}
             alt=""
           />
         </div>
         <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg col-span-2  relative  overflow-hidden  ">
           <div className=" absolute w-full p-2 z-20">
-            <p className="text-xs">Side Projects</p>
+            <p className="text-xs">Skills</p>
             <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
           </div>
 
@@ -405,11 +370,11 @@ function Homepage() {
             {/* Starts */}
             <div className="flex gap-x-3 mt-14 px-2  ">
               <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                Since 2023
+              Coding
               </p>
               <div>
-                <h4 className="text-xs font-bold">WebFlow</h4>
-                <p className="text-[11px] text-neutral-500">Official partner</p>
+                <h4 className="text-xs font-bold">PHP</h4>
+                <p className="text-[11px] text-neutral-500">CodeIgniter | Laravel</p>
               </div>
             </div>
 
@@ -418,10 +383,10 @@ function Homepage() {
             </div>
 
             <div className="flex  gap-x-3 px-2 relative ">
-              <p className="text-white  text-xs w-20 shrink-0  ">Since 2021</p>
+              <p className="text-white  text-xs w-20 shrink-0  ">Coding</p>
               <div>
-                <h4 className="text-xs font-bold">Awwward</h4>
-                <p className="text-[11px] text-neutral-500">Jury Member</p>
+                <h4 className="text-xs font-bold">JavaScript</h4>
+                <p className="text-[11px] text-neutral-500">ReactJS | NextJS | VueJS</p>
               </div>
             </div>
 
@@ -431,11 +396,79 @@ function Homepage() {
 
             <div className="flex  gap-x-3  px-2 relative ">
               <p className="dark:text-white  text-xs w-20 shrink-0  ">
-                Since 2018
+                Coding
               </p>
               <div>
-                <h4 className="text-xs font-bold">ADC Club Global</h4>
-                <p className="text-[11px] text-neutral-500">Jury Member</p>
+                <h4 className="text-xs font-bold">HTML and CSS</h4>
+                <p className="text-[11px] text-neutral-500">Bootstrap | Tailwind CSS</p>
+              </div>
+            </div>
+
+            <div className="px-2 my-3 ">
+              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+            </div>
+
+            <div className="flex  gap-x-3  px-2 relative ">
+              <p className="dark:text-white  text-xs w-20 shrink-0  ">
+                Database
+              </p>
+              <div>
+                <h4 className="text-xs font-bold">MySQL</h4>
+                <p className="text-[11px] text-neutral-500">PHPMyAdmin</p>
+              </div>
+            </div>
+
+            <div className="px-2 my-3 ">
+              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+            </div>
+
+            <div className="flex  gap-x-3  px-2 relative ">
+              <p className="dark:text-white  text-xs w-20 shrink-0  ">
+                CMS
+              </p>
+              <div>
+                <h4 className="text-xs font-bold">WordPress</h4>
+                <p className="text-[11px] text-neutral-500">Wordpress</p>
+              </div>
+            </div>
+
+            <div className="px-2 my-3 ">
+              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+            </div>
+
+            <div className="flex  gap-x-3  px-2 relative ">
+              <p className="dark:text-white  text-xs w-20 shrink-0  ">
+                Design
+              </p>
+              <div>
+                <h4 className="text-xs font-bold">UI Designer</h4>
+                <p className="text-[11px] text-neutral-500">Figma | Framer | Webflow | Adobie XD</p>
+              </div>
+            </div>
+
+            <div className="px-2 my-3 ">
+              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+            </div>
+            <div className="flex  gap-x-3  px-2 relative ">
+              <p className="dark:text-white  text-xs w-20 shrink-0  ">
+                Design
+              </p>
+              <div>
+                <h4 className="text-xs font-bold">Graphic Design</h4>
+                <p className="text-[11px] text-neutral-500">CorelDraw | Canva | Figma</p>
+              </div>
+            </div>
+
+            <div className="px-2 my-3 ">
+              <div className="w-full h-[0.9px] dark:bg-neutral-800  bg-neutral-400/40 " />
+            </div>
+            <div className="flex  gap-x-3  px-2 relative ">
+              <p className="dark:text-white  text-xs w-20 shrink-0  ">
+                Design
+              </p>
+              <div>
+                <h4 className="text-xs font-bold">3D Assets</h4>
+                <p className="text-[11px] text-neutral-500">Spline</p>
               </div>
             </div>
 
@@ -457,7 +490,7 @@ function Homepage() {
             <input
               className=" w-full rounded-full text-sm p-1 placeholder:text-neutral-700 outline-none border dark:border-neutral-600 border-neutral-400/60 pl-6 bg-neutral-900"
               type="email"
-              placeholder="name@email.com"
+              placeholder="suseptoridos@gmail.com"
             />
             <button className="text-xs  w-full  border dark:border-neutral-600 border-neutral-400/60  mt-2 rounded-full p-1 px-2 dark:bg-neutral-700/40">
               <span>Contact me</span>
@@ -472,8 +505,7 @@ function Homepage() {
         >
           <div>
             <p className="text-[10px] mt-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-              optio vel officia.
+            Don't wait, take action now or you'll kick yourself later.
             </p>
 
             <div className="flex items-center gap-x-2 mt-7">
@@ -486,8 +518,9 @@ function Homepage() {
               />
 
               <div className="">
-                <p className="text-xs">JoScript</p>
-                <p className="text-xs">Founder, Joscript</p>
+                <p className="text-xs">Hobby</p>
+                <p className="text-xs">
+                Games, Sports</p>
               </div>
             </div>
           </div>
@@ -500,11 +533,11 @@ function Homepage() {
             className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg  h-44 p-2 relative "
           >
             <div className=" absolute w-full p-2 z-20">
-              <p className="text-xs">Years of Experience</p>
+              <p className="text-xs">Age</p>
               <div className="w-full h-[0.9px] dark:bg-neutral-600 bg-neutral-400/60 mt-1 top-7  " />
             </div>
             <div className="mt-10  w-full flex justify-center items-center">
-              <h1 className="text-8xl">17</h1>
+              <h1 className="text-8xl">19</h1>
             </div>
           </motion.div>
           <div className="dark:bg-[#1E1E1E] bg-white border dark:border-neutral-600 border-neutral-400/60 shadow-xl rounded-lg h-44 p-2 relative z-40">
@@ -515,14 +548,22 @@ function Homepage() {
               </div>
             </div>
             <div className="mt-24 w-full">
+              <Link
+              href={"https://www.figma.com/file/2lCkbGYf7LvkNPLGbD20d7/cv?type=design&node-id=0%3A1&mode=design&t=cbVoQ43RrqILHc14-1"}
+              >
               <button className="text-xs flex w-full items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40">
                 <span>View</span>
                 <PiArrowUpRight />
               </button>
+              </Link>
+              <Link
+              href={"https://www.figma.com/file/2lCkbGYf7LvkNPLGbD20d7/cv?type=design&node-id=0%3A1&mode=design&t=cbVoQ43RrqILHc14-1"}
+              >
               <button className="text-xs flex w-full mt-3 items-center justify-between border dark:border-neutral-600 border-neutral-400/60   rounded-full p-1 px-2 dark:bg-neutral-700/40">
                 <span>Download</span>
                 <PiArrowDownThin />
               </button>
+              </Link>
             </div>
           </div>
         </div>
