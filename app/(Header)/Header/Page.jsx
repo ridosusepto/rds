@@ -20,9 +20,9 @@ function HeaderPage() {
   const { theme, systemTheme, setTheme } = useTheme();
 
   const links = [
-    { name: "/jo1.jpeg", theme: "dark" },
-    { name: "/jo2.jpeg", theme: "light" },
-    { name: "/jo3.jpeg", theme: "system" },
+    { name: "./jo1.jpeg", theme: "dark" },
+    { name: "./jo2.jpeg", theme: "light" },
+    { name: "./jo3.jpeg", theme: "system" },
   ];
 
   const itemVariants = {
